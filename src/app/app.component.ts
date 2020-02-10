@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
   private getNews() {
     this.newsService.getNews().subscribe(
       response => {
-        this.dataSource.data=response;
+        this.dataSource.data = response;
       }
     );
   }
